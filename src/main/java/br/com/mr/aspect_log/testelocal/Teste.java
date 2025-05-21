@@ -11,6 +11,7 @@ public class Teste {
         return numero1 + numero2;
     }
 
+    @LogMethodExit(message = "SUBTRACAO REALIZADA COM SUCESSO")
     public int subtracao(int numero1, int numero2) {
         return numero1 - numero2;
     }
